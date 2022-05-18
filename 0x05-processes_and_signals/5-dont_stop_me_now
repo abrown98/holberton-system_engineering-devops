@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# how to stop process using kill
+var="$(pgrep -f 4-to_infinity_and_beyond)"
+kill -15 "$var"
