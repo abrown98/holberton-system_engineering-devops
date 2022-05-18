@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# how to display pid
+echo $$
