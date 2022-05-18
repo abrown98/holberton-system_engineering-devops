@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# im gonna pstree along with grep
+grep bash | pstree
