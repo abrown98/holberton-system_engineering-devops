@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-# im gonna pstree along with grep
-pgrep bash
+# pgrep bash to see prcss
+pgrep -l bash
