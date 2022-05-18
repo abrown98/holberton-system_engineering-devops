@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# i am piping grep bash into ps command
+# shellcheck disable=SC2009
+ps -faux | grep bash
