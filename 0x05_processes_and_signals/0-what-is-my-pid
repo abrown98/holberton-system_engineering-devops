@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# how to view the PID
+echo $$
