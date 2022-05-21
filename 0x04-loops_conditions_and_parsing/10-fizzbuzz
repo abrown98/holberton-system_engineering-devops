@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# no comment 
+x=0
+while [ $x -lt 100 ]; do
+	((x++))
+	if ! (( x % 3 )) && ! (( x % 5 )); then
+		echo "FizzBuzz"
+	elif ! (( x % 3 )); then
+		echo "Fizz"
+	elif ! (( x % 5 )); then
+		echo "Buzz"
+	else
+		echo "$x"
+	fi
+done
