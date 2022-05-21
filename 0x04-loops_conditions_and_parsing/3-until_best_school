@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
-# print Best School
-x=1
-while [ $x -le 10 ]
-do
-	echo "Best School"
-	x=$(( x + 1 ))
-done
+# print Best school
+n=Best School
+until [ $n -ge 10 ]
+do echo $n
+n=$(( n+1 ))
+
