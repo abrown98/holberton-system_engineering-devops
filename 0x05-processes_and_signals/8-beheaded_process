@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-# kill process
-trap 'echo "I am invincible!!!"' sigterm
-while  'true'; do
-	echo "To infinity and beyond"
-	sleep 2
+# create a variable for the ls command; cut all text after the "-" delimeter
+x="$(ls)"
+for x in *; do
+	echo "$x" | cut -d - -f 2
 done
