@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# comment
+x=0
+while [[ $x -lt 20 ]]; do
+	((x++))
+	case $x in
+		4)
+			echo "$x"
+			echo "bad luck from China"
+			;;
+		9)
+			echo "$x"
+			echo "bad luck from Japan"
+			;;
+		17)
+			echo "$x"
+			echo "bad luck from Italy"
+			;;
+		*)
+			echo "$x"
+			;;
+	esac
+done
