@@ -1,2 +1,2 @@
 #!/bin/bash
-grep '.' | ls -l
+ls -la . .. /boot
