@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# loop w/ time
+hour=0
+minute=1
+while [[ $hour -le 12 ]] && [[ $minute -le 59 ]]; do
+	case $minute in
+		1)
+			echo "Hour: $hour"
+			echo "$minute"
+			((minute++))
+			;;
+		59)
+			echo "$minute"
+			((hour++))
+			((minute=1))
+			;;
+		*)
+			echo "$minute"
+			((minute++))
+			;;
+	esac
+done
